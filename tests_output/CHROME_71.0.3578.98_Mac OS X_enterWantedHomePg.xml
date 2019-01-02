@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="2">
 
   <testsuite name="enterWantedHomePg"
-    errors="0" failures="0" hostname="" id="" package="enterWantedHomePg" skipped="0"
-    tests="2" time="3.437" timestamp="Mon, 17 Dec 2018 22:03:09 GMT">
+    errors="0" failures="1" hostname="" id="" package="enterWantedHomePg" skipped="0"
+    tests="2" time="5.009" timestamp="Wed, 19 Dec 2018 19:14:03 GMT">
   
-    <testcase name="checking EwHomePgInfo" classname="enterWantedHomePg" time="3.355" assertions="17">
+    <testcase name="checking EwHomePgInfo" classname="enterWantedHomePg" time="2.833" assertions="17">
 
     
 
@@ -44,7 +44,35 @@
     
     </testcase>
   
-    <testcase name="enter wanted page, minimal characters" classname="enterWantedHomePg" time="0.08200" assertions="1">
+    <testcase name="enter wanted page, minimal characters" classname="enterWantedHomePg" time="2.176" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;li:nth-child(13)&gt; contains text: &#34;The &#34;DL State&#34; field should be 2 characters long.&#34;.">    at Object.enter wanted page, minimal characters (/Users/jakewretberg/Desktop/Devmountain/Enterwanted-repository/tests/enterWantedHomePg.js:79:23)</failure>
 
     
     </testcase>

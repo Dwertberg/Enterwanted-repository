@@ -17,6 +17,7 @@ module.exports = {
         cancelWantedName: 'li:nth-child(5) > h3',
         cancelWantedDesc: 'ul:nth-child(6) > li',
         versionNumber: 'h6',
+        
         warrantIdHdr: '[name="widHeader"]',
         warrantId: '[name="widInput"]',
         headerHdr: '[name="hdrHeader"]',
@@ -60,6 +61,30 @@ module.exports = {
         resCancel: '[name="resInput"]',
         dateCancelHdr: '[name="datHeader"]',
         dateCancel: '[name="datInput"]',
+        resultsField: 'td[class="results"]',
+
+        hdrError: 'li:nth-child(1)',
+        mkeError: 'li:nth-child(2)',
+        oriError: 'li:nth-child(3)',
+        nameError: 'li:nth-child(4)',
+        sexError: 'li:nth-child(5)',
+        raceError: 'li:nth-child(6)',
+        heightError: 'li:nth-child(7)',
+        weightError: 'li:nth-child(8)',
+        hairError: 'li:nth-child(9)',
+        offenseError: 'li:nth-child(10)',
+        dowError: 'li:nth-child(11)',
+        dlError: 'li:nth-child(12)',
+        dlStateError: 'li:nth-child(13)',
+        dlExpError: 'li:nth-child(14)',
+        licPlateError: 'li:nth-child(15)',
+        licPlateStateError: 'li:nth-child(16)',
+        licPlateExpError: 'li:nth-child(17)',
+        
+
+
+        
+
         
 
 
